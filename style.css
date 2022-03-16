@@ -16,10 +16,6 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
-p {
-    font-size: 18px;
-}
-
 .container {
     background-color: hsl(216, 50%, 16%);
     border-radius: 5%;
@@ -81,6 +77,27 @@ p {
 
 hr {
     color: hsl(215, 32%, 27%);
+}
+
+.creator--container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creator--container img {
+    height: 3rem;
+    border: solid white;
+    border-radius: 50%;
+}
+
+.creator--container p {
+    margin-left: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator--container span {
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution {
