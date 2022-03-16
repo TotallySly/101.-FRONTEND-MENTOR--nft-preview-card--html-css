@@ -23,7 +23,7 @@ p {
 .container {
     background-color: hsl(216, 50%, 16%);
     border-radius: 5%;
-    max-width: 75%;
+    max-width: 90%;
     width: 22rem;
 }
 
@@ -43,8 +43,10 @@ p {
 }
 
 .text--container {
+    max-width: 95%;
     margin-top: 1.7rem;
     margin-left: 1.5rem;
+    margin-right: 1rem;
 }
 
 .text--heading p {
@@ -61,21 +63,24 @@ p {
 }
 
 .numbers--container {
+    max-width: 95%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.numbers--container svg {
-    margin-right: 0.5rem;
 }
 
 .eth {
     color: hsl(178, 100%, 50%);
+    padding-left: 0.4rem;
+    padding-right: 6rem;
 }
 
 .days {
     color: hsl(215, 51%, 70%);
+    padding-left: 0.3rem;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
 }
 
 .attribution {
