@@ -13,6 +13,28 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 5%;
+    max-width: 75%;
+    width: 22rem;
+}
+
+.image--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.image--container img {
+    max-width: 85%;
+    width: 20rem;
+    border-radius: 5%;
 }
 
 .attribution {
