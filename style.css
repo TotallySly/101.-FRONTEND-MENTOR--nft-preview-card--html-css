@@ -52,6 +52,15 @@ p {
     font-weight: 600;
 }
 
+.text--container > p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-right: 0.8rem;
+    text-align: left;
+    line-height: 1.4rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
