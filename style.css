@@ -55,10 +55,27 @@ p {
 .text--container > p {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 0.8rem;
     margin-right: 0.8rem;
     text-align: left;
     line-height: 1.4rem;
+}
+
+.numbers--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers--container svg {
+    margin-right: 0.5rem;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
 }
 
 .attribution {
