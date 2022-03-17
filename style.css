@@ -48,6 +48,7 @@ body {
 .text--heading p {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .text--container > p {
@@ -77,12 +78,17 @@ body {
 
 hr {
     color: hsl(215, 32%, 27%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .creator--container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .creator--container img {
