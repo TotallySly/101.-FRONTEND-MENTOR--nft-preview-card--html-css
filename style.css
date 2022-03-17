@@ -28,14 +28,37 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .image--container img {
+    margin-top: 1rem;
     max-width: 85%;
-    width: 20rem;
     border-radius: 5%;
+}
+
+.image--container:hover .hover--image {
+    display: block;
+    cursor: pointer;
+}
+
+.hover--image {
+    background-color: hsla(178, 100%, 50%, 0.5);
+    height: 95%;
+    width: 85%;
+    border-radius: 5%;
+    position: absolute;
+    top: 1rem;
+    display: none;
+}
+
+.hover--image img {
+    width: 10%;
+    height: 10%;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .text--container {
@@ -112,4 +135,9 @@ hr {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.hover:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
