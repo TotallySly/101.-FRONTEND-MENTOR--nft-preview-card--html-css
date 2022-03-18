@@ -58,7 +58,7 @@ Using rem for sizing of containers and elements.
 
 ### Continued development
 
-Position Absolute and Relative. I made a naive assumption that this was not used that much due to Flexbox and CSS. So I need to place more time in learning exactly how this works.
+Position Absolute and Relative. I made a naive assumption that this was not used that much due to Flexbox and Grid. So I need to place more time in learning exactly how this works.
 
 I should use :root and var to establish my colour schemes. It is repetitive to constantly type out each colour, even with the Emmet snippet that is displayed within VS Code.
 
@@ -67,7 +67,7 @@ Look more into transitions and transform(X) and (Y).
 ### Useful resources
 
 -   [Overlay](https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css) - This provided a simple solution to the theory behind creating an Overlay.
--   [EOverlay](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - Again, provided a simple solution to the theory behind creating an Overlay
+-   [Overlay](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - Again, provided a simple solution to the theory behind creating an Overlay
 
 ## Author
 
